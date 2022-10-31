@@ -1,0 +1,34 @@
+:root{
+    --primary: red;
+    --secondary: gray;
+    --dark: black;
+    --ligth: rgb(179, 144, 144);
+
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+body{
+    background-color: var(--ligth);
+}
+.App{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.calculator{
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+
+
+}
